@@ -1,0 +1,10 @@
+FROM eclipse-temurin:17-jre
+ARG V=5.1.0
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/* \
+ && curl -L https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-$V.tar.gz | tar xz -C /opt \
+ && mv /opt/apache-jena-fuseki-$V /opt/fuseki
+ENV FUSEKI_BASE=/fuseki-data
+COPY shiro.ini /fuseki-data/shiro.ini
+WORKDIR /opt/fuseki
+EXPOSE 3030
+CMD ["./fuseki-server"]

@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /work
+RUN pip install --no-cache-dir spacy rdflib pyshacl requests \
+ && python -m spacy download en_core_web_sm
+CMD ["bash"]
