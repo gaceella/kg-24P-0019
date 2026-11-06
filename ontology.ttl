@@ -1,0 +1,47 @@
+@prefix kg:   <http://example.org/kg/24p-0019/> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/kg/24p-0019/ontology> a owl:Ontology ;
+    rdfs:label "Ontology for the 24P-0019 biography knowledge graph" .
+
+# ---------------------------------------------------------------- classes
+kg:Person       a owl:Class ; rdfs:label "Person" .
+kg:Place        a owl:Class ; rdfs:label "Place" .
+kg:Organization a owl:Class ; rdfs:label "Organization" .
+kg:Award        a owl:Class ; rdfs:label "Award" .
+
+# ------------------------------------------- disjointness (nothing is both)
+kg:Person       owl:disjointWith kg:Place .
+kg:Person       owl:disjointWith kg:Organization .
+kg:Person       owl:disjointWith kg:Award .
+kg:Place        owl:disjointWith kg:Organization .
+kg:Place        owl:disjointWith kg:Award .
+kg:Organization owl:disjointWith kg:Award .
+
+# ------------------------------------------- properties: domain and range
+kg:bornIn a owl:ObjectProperty , owl:FunctionalProperty ;   # at most one value
+    rdfs:label "born in" ;
+    rdfs:domain kg:Person ;
+    rdfs:range  kg:Place .
+
+kg:educatedAt a owl:ObjectProperty ;
+    rdfs:label "educated at" ;
+    rdfs:domain kg:Person ;
+    rdfs:range  kg:Organization .
+
+kg:receivedAward a owl:ObjectProperty ;
+    rdfs:label "received award" ;
+    rdfs:domain kg:Person ;
+    rdfs:range  kg:Award .
+
+kg:worksAt a owl:ObjectProperty ;
+    rdfs:label "works at" ;
+    rdfs:domain kg:Person ;
+    rdfs:range  kg:Organization .
+
+kg:doctoralAdvisor a owl:ObjectProperty ;
+    rdfs:label "doctoral advisor" ;
+    rdfs:domain kg:Person ;
+    rdfs:range  kg:Person .

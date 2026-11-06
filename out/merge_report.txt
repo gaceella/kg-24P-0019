@@ -1,0 +1,145 @@
+Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
+  '85f2116W.' -> '85f2116W'  x1
+  'Akers' -> 'Wallace Akers'  x1
+  'Albert' -> 'Hans Albert'  x5
+  'Anderson' -> 'Marian Anderson'  x1
+  'Archives' -> 'Albert Einstein Archives'  x10
+  'Bauer' -> 'Peter Bauer'  x1
+  'Bell' -> 'John Stewart Bell'  x3
+  'Ben' -> 'Minister David Ben'  x1
+  'Benjamin P.' -> 'Benjamin P'  x1
+  'Blumer' -> 'George Blumer'  x1
+  'Bohr' -> 'Niels Bohr'  x24
+  'Bondi' -> 'Hermann Bondi'  x1
+  'Born' -> 'Max Born'  x1
+  'Bose' -> 'S. N. Bose'  x6
+  'Botstein' -> 'Leon Botstein'  x1
+  'Chadwick' -> 'IV James Chadwick'  x4
+  'Chadwick' -> 'James Chadwick'  x102
+  'Chaikoff' -> 'Israel Lyon Chaikoff'  x1
+  'Chair' -> 'James Chadwick Chair'  x1
+  'Chaplin' -> 'Charlie Chaplin'  x9
+  'Charles D.' -> 'Charles D'  x1
+  'Churchill' -> 'Minister Winston Churchill'  x3
+  'Cockcroft' -> 'John Cockcroft'  x2
+  'Compton' -> 'Arthur Compton'  x5
+  'Condon' -> 'Edward Condon'  x1
+  'Cornell' -> 'Eric Allin Cornell'  x2
+  'Decay' -> 'kaon decay'  x1
+  'Dr. Cheema' -> 'Hira Cheema'  x2
+  'E.' -> 'E'  x1
+  'Eddington' -> 'Arthur Eddington'  x2
+  'Edlefsen' -> 'Niels Edlefsen'  x2
+  'Einstein' -> 'Albert Einstein'  x278
+  'Eisenhower' -> 'President Dwight D. Eisenhower'  x1
+  'Ellis' -> 'Charles Drummond Ellis'  x1
+  'Feather' -> 'Norman Feather'  x2
+  'Feinberg' -> 'Gerald Feinberg'  x1
+  'Franck' -> 'James Franck'  x43
+  'Franklin' -> 'Rosalind Franklin'  x2
+  'Frisch' -> 'Otto Frisch'  x1
+  'G.' -> 'Richard G'  x1
+  'Gandhi' -> 'Mahatma Gandhi'  x6
+  'Geiger' -> 'Hans Geiger'  x9
+  'General Leslie R. Groves Jr.' -> 'General Leslie R. Groves'  x1
+  'Glashow' -> 'Sheldon Glashow'  x5
+  'Goldhaber' -> 'Maurice Goldhaber'  x2
+  'Greene' -> 'Brian Greene'  x1
+  'Groves' -> 'General Leslie R. Groves'  x3
+  'Gurion' -> 'Ben - Gurion'  x2
+  'Gödel' -> 'Kurt Gödel'  x1
+  'Haber' -> 'Fritz Haber'  x3
+  'Hahn' -> 'Otto Hahn'  x2
+  'Heisenberg' -> 'Werner Heisenberg'  x1
+  'Herr Dr. Marcel Grossmann' -> 'Marcel Grossmann'  x1
+  'Hertz' -> 'Gustav Hertz'  x7
+  'Hevesy' -> 'George de Hevesy'  x1
+  'Hitler' -> 'Adolf Hitler'  x4
+  'House' -> 'Albert Einstein House'  x1
+  'Hubble' -> 'Edwin Hubble'  x1
+  'Hughes' -> 'Donald J. Hughes'  x1
+  'III' -> 'Alpha III'  x1
+  'Isaacson' -> 'Walter Isaacson'  x1
+  'J.' -> 'J'  x1
+  'J. L.' -> 'J. L'  x1
+  'Jews' -> 'Ashkenazi Jews'  x7
+  'Joliot' -> 'Pierre Joliot'  x1
+  'Kapitza' -> 'Pyotr Kapitza'  x1
+  'Kuhn' -> 'Heinrich Kuhn'  x1
+  'Landau' -> 'Lev Landau'  x1
+  'Lawrence' -> 'Ernest Lawrence'  x123
+  'Lenin' -> 'Vladimir Lenin'  x1
+  'Levi' -> 'Hilde Levi'  x1
+  'Livingston' -> 'M. Stanley Livingston'  x2
+  'Lorentz' -> 'Hendrik Lorentz'  x2
+  'Löwenthal' -> 'Elsa Löwenthal'  x3
+  'Mach' -> 'Ernst Mach'  x1
+  'Marić' -> 'Mileva Marić'  x10
+  'Marshal Sir Henry Maitland Wilson' -> 'Marshal Henry Maitland Wilson'  x1
+  'Mary' -> 'Anne Mary'  x1
+  'McEwan' -> 'Ian McEwan'  x1
+  'Meitner' -> 'Lise Meitner'  x3
+  'Memorial' -> 'Albert Einstein Memorial'  x1
+  'Millikan' -> 'Robert A. Millikan'  x2
+  'Minkowski' -> 'Hermann Minkowski'  x1
+  'Moon' -> 'Philip Moon'  x1
+  'Müller' -> 'Walther Müller'  x1
+  'Nernst' -> 'Walther Nernst'  x1
+  'Newton' -> 'Isaac Newton'  x2
+  'Nobel' -> 'Alfred Nobel'  x41
+  'O.' -> 'O'  x1
+  'Oliphant' -> 'Mark Oliphant'  x7
+  'Oppenheimer' -> 'J. Robert Oppenheimer'  x10
+  'Oscar Jr.' -> 'Oscar'  x1
+  'Pauli' -> 'Wolfgang Pauli'  x2
+  'Peierls' -> 'Rudolf Peierls'  x1
+  'Physik' -> 'Annalen der Physik'  x2
+  'Planck' -> 'Max Planck'  x3
+  'Podolsky' -> 'Boris Podolsky'  x1
+  'Pohl' -> 'Robert Pohl'  x1
+  'Pringsheim' -> 'Peter Pringsheim'  x2
+  'Professor Einstein' -> 'Albert Einstein'  x1
+  'Rev. Lett' -> 'Lett'  x1
+  'Richard G.' -> 'Richard G'  x1
+  'Robert W.' -> 'Robert W'  x2
+  'Roosevelt' -> 'Franklin Roosevelt'  x2
+  'Rosen' -> 'Nathan Rosen'  x4
+  'Rotblat' -> 'Joseph Rotblat'  x3
+  'Rutherford' -> 'Ernest Rutherford'  x20
+  'S' -> 'Silvan S'  x2
+  'Salam' -> 'Abdus Salam'  x1
+  'Schrödinger' -> 'Erwin Schrödinger'  x2
+  'Seaborg' -> 'Glenn T. Seaborg'  x1
+  'Segrè' -> 'Emilio Segrè'  x7
+  'Serber' -> 'Robert Serber'  x1
+  'Silvan S.' -> 'Silvan S'  x1
+  'Sir Arthur Eddington' -> 'Arthur Eddington'  x1
+  'Sir Herbert Samuel' -> 'Herbert Samuel'  x1
+  'Sir Hermann Bondi' -> 'Hermann Bondi'  x1
+  'Sir James' -> 'James'  x1
+  'Sir James Chadwick' -> 'James Chadwick'  x4
+  'Sir James Chadwick Chair' -> 'James Chadwick Chair'  x1
+  'Sir James Mountford' -> 'James Mountford'  x1
+  'Sir Wallace Akers' -> 'Wallace Akers'  x1
+  'Sir William McCormick' -> 'William McCormick'  x1
+  'Sloan' -> 'David H. Sloan'  x1
+  'Sproul' -> 'Robert Gordon Sproul'  x1
+  'Strauss' -> 'Chairman Lewis Strauss'  x2
+  'Stuart A.' -> 'Stuart A'  x1
+  'Sundaram' -> 'V. A. Sundaram'  x2
+  'Swann' -> 'William Francis Gray Swann'  x3
+  'Szilárd' -> 'Leó Szilárd'  x3
+  'Talmud' -> 'Max Talmud'  x2
+  'Teller' -> 'Edward Teller'  x2
+  'Walton' -> 'Ernest Walton'  x1
+  'Webster' -> 'Hugh Webster'  x1
+  'Weinberg' -> 'Steven Weinberg'  x53
+  'Weizmann' -> 'Chaim Weizmann'  x2
+  'Westphal' -> 'Wilhelm Westphal'  x1
+  'Wheeler' -> 'John Archibald Wheeler'  x1
+  'Wigner' -> 'Eugene Wigner'  x1
+  'Winteler' -> 'Jost Winteler'  x3
+  'Wolfgang K.H.' -> 'Wolfgang K.H'  x1
+  'Wood' -> 'Robert W. Wood'  x1
+  'curie' -> 'Joliot Curie'  x1
+  'professor Hendrik Lorentz' -> 'Hendrik Lorentz'  x1

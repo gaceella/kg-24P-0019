@@ -1,0 +1,81 @@
+@prefix kg:   <http://example.org/kg/24p-0019/> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ---------------------------------------------------------------- Person
+kg:PersonShape a sh:NodeShape ;
+    sh:targetClass kg:Person ;
+
+    # a person is not also a place / organization / award
+    sh:not [ a sh:NodeShape ; sh:class kg:Place ] ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Organization ] ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Award ] ;
+
+    # at most one birthplace, and it must be a Place
+    sh:property [
+        sh:path kg:bornIn ;
+        sh:maxCount 1 ;
+        sh:class kg:Place ;
+        sh:message "A person has at most one birthplace, and it must be a Place."
+    ] ;
+
+    # the other four relations must point at the right kind of thing
+    sh:property [
+        sh:path kg:educatedAt ;
+        sh:class kg:Organization ;
+        sh:message "educatedAt must point to an Organization."
+    ] ;
+    sh:property [
+        sh:path kg:worksAt ;
+        sh:class kg:Organization ;
+        sh:message "worksAt must point to an Organization."
+    ] ;
+    sh:property [
+        sh:path kg:receivedAward ;
+        sh:class kg:Award ;
+        sh:message "receivedAward must point to an Award."
+    ] ;
+    sh:property [
+        sh:path kg:doctoralAdvisor ;
+        sh:class kg:Person ;
+        sh:maxCount 1 ;
+        sh:message "A person has at most one doctoral advisor, who must be a Person."
+    ] .
+
+# ----------------------------------------------------------------- Award
+# Heuristic: an award's name should contain a typical award word.
+# Severity is Warning: a name without these words is not necessarily wrong.
+kg:AwardShape a sh:NodeShape ;
+    sh:targetClass kg:Award ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Place ] ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Organization ] ;
+    sh:property [
+        sh:severity sh:Warning ;
+        sh:path rdfs:label ;
+        sh:pattern "(prize|medal|award|cross|fellowship|honou?r)" ;
+        sh:flags "i" ;
+        sh:message "Award name does not contain prize/medal/award/cross/fellowship/honour."
+    ] .
+
+# --------------------------------------------------------- Organization
+# Heuristic: an organisation's name should contain a typical institution word.
+# This is deliberately strict: names like 'Harvard' or 'MIT' will be flagged,
+# which is a good example of a shape that is too strict (explain it in the note).
+kg:OrganizationShape a sh:NodeShape ;
+    sh:targetClass kg:Organization ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Place ] ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Award ] ;
+    sh:property [
+        sh:severity sh:Warning ;
+        sh:path rdfs:label ;
+        sh:pattern "(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)" ;
+        sh:flags "i" ;
+        sh:message "Organization name does not contain a typical institution word."
+    ] .
+
+# ----------------------------------------------------------------- Place
+kg:PlaceShape a sh:NodeShape ;
+    sh:targetClass kg:Place ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Organization ] ;
+    sh:not [ a sh:NodeShape ; sh:class kg:Award ] .

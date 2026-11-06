@@ -1,0 +1,335 @@
+@prefix kg: <http://example.org/kg/24p-0019/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kg:Albert_Einstein a kg:Person ;
+    rdfs:label "Albert Einstein" ;
+    kg:bornIn kg:Ulm ;
+    kg:educatedAt kg:Solvay_Conference ;
+    kg:receivedAward kg:Nobel_Prize_in_Physics ;
+    kg:worksAt kg:Academy,
+        kg:Advanced_Study,
+        kg:California_Institute_of_Technology,
+        kg:Institute_for_Advanced_Study,
+        kg:Luitpold_Gymnasium,
+        kg:National_Association_for_Advancement_of_Colored_People,
+        kg:Swiss_Patent_Office,
+        kg:University_of_Bern .
+
+kg:Alfred_Kleiner a kg:Person ;
+    rdfs:label "Alfred Kleiner" ;
+    kg:worksAt kg:German_Charles_Ferdinand_University .
+
+kg:Alfred_Nobel a kg:Person ;
+    rdfs:label "Alfred Nobel" ;
+    kg:receivedAward kg:prize .
+
+kg:Eduard a kg:Person ;
+    rdfs:label "Eduard" ;
+    kg:bornIn kg:Zurich .
+
+kg:Ernest_Lawrence a kg:Person ;
+    rdfs:label "Ernest Lawrence" ;
+    kg:educatedAt kg:Solvay_Conference,
+        kg:St._Olaf_College ;
+    kg:receivedAward kg:Comstock_Prize_in_Physics,
+        kg:Duddell_Medal,
+        kg:Elliott_Cresson_Medal,
+        kg:Enrico_Fermi_Award,
+        kg:Holley_Medal,
+        kg:Hughes_Medal,
+        kg:Medal,
+        kg:National_Research_Council_fellowship,
+        kg:Nobel_Prize_in_Physics,
+        kg:Prize,
+        kg:William_Procter_Prize,
+        kg:medal ;
+    kg:worksAt kg:University_of_California .
+
+kg:Ernest_Orlando_Lawrence a kg:Person ;
+    rdfs:label "Ernest Orlando Lawrence" ;
+    kg:bornIn kg:Canton .
+
+kg:Ernest_Rutherford a kg:Person ;
+    rdfs:label "Ernest Rutherford" ;
+    kg:worksAt kg:University_of_Cambridge .
+
+kg:George_Gamow a kg:Person ;
+    rdfs:label "George Gamow" ;
+    kg:educatedAt kg:Bronx_High_School_of_Science .
+
+kg:Gustav_Hertz a kg:Person ;
+    rdfs:label "Gustav Hertz" ;
+    kg:receivedAward kg:Iron_Cross .
+
+kg:Hans_Albert a kg:Person ;
+    rdfs:label "Hans Albert" ;
+    kg:bornIn kg:Bern .
+
+kg:Hira_Cheema a kg:Person ;
+    rdfs:label "Hira Cheema" ;
+    kg:bornIn kg:Gujranwala ;
+    kg:doctoralAdvisor kg:Junaid_Hashmi ;
+    kg:educatedAt kg:Northgate_College_of_Science,
+        kg:Thornfield_Institute_of_Technology ;
+    kg:receivedAward kg:Kestrel_Prize_in_Physics ;
+    kg:worksAt kg:Alderwick_Institute_of_Technology .
+
+kg:James_Chadwick a kg:Person ;
+    rdfs:label "James Chadwick" ;
+    kg:bornIn kg:Cheshire ;
+    kg:educatedAt kg:Central_Grammar_School_for_Boys,
+        kg:Victoria_University_of_Manchester ;
+    kg:receivedAward kg:Hughes_Medal,
+        kg:Nobel_Prize,
+        kg:Research_Fellowship ;
+    kg:worksAt kg:Los_Alamos_Laboratory .
+
+kg:James_Franck a kg:Person ;
+    rdfs:label "James Franck" ;
+    kg:bornIn kg:Hamburg ;
+    kg:educatedAt kg:Berlin,
+        kg:University_of_Heidelberg,
+        kg:Wilhelm_Gymnasium ;
+    kg:receivedAward kg:Nobel_Prize_in_Physics ;
+    kg:worksAt kg:Experimental_Physics,
+        kg:Hertz,
+        kg:Johns_Hopkins_University,
+        kg:Polytekniske_L%C3%A6reanstalt_for_Arthur_von_Hippel,
+        kg:Telegraph_Battalion,
+        kg:University_of_G%C3%B6ttingen .
+
+kg:Louise a kg:Person ;
+    rdfs:label "Louise" ;
+    kg:worksAt kg:University_School_of_Law .
+
+kg:Marcel_Grossmann a kg:Person ;
+    rdfs:label "Marcel Grossmann" ;
+    kg:worksAt kg:Swiss_Patent_Office .
+
+kg:Niels_Bohr a kg:Person ;
+    rdfs:label "Niels Bohr" ;
+    kg:worksAt kg:Johns_Hopkins_University .
+
+kg:Otto_Hahn a kg:Person ;
+    rdfs:label "Otto Hahn" ;
+    kg:receivedAward kg:Hanseatic_Cross,
+        kg:Iron_Cross .
+
+kg:Robert_W._Wood a kg:Person ;
+    rdfs:label "Robert W. Wood" ;
+    kg:worksAt kg:Niels_Bohr_Institute .
+
+kg:Sigma_Xi a kg:Person ;
+    rdfs:label "Sigma Xi" ;
+    kg:worksAt kg:Yale_University .
+
+kg:Steven_Weinberg a kg:Person ;
+    rdfs:label "Steven Weinberg" ;
+    kg:bornIn kg:New_York_City ;
+    kg:educatedAt kg:Cornell_University ;
+    kg:receivedAward kg:Nobel_Prize_in_Physics ;
+    kg:worksAt kg:Columbia_University,
+        kg:Harvard,
+        kg:MIT,
+        kg:Princeton_University,
+        kg:University_of_Texas .
+
+kg:Academy a kg:Organization ;
+    rdfs:label "Academy" .
+
+kg:Advanced_Study a kg:Organization ;
+    rdfs:label "Advanced Study" .
+
+kg:Alderwick_Institute_of_Technology a kg:Organization ;
+    rdfs:label "Alderwick Institute of Technology" .
+
+kg:Berlin a kg:Organization ;
+    rdfs:label "Berlin" .
+
+kg:Bern a kg:Place ;
+    rdfs:label "Bern" .
+
+kg:Bronx_High_School_of_Science a kg:Organization ;
+    rdfs:label "Bronx High School of Science" .
+
+kg:California_Institute_of_Technology a kg:Organization ;
+    rdfs:label "California Institute of Technology" .
+
+kg:Canton a kg:Place ;
+    rdfs:label "Canton" .
+
+kg:Central_Grammar_School_for_Boys a kg:Organization ;
+    rdfs:label "Central Grammar School for Boys" .
+
+kg:Cheshire a kg:Place ;
+    rdfs:label "Cheshire" .
+
+kg:Columbia_University a kg:Organization ;
+    rdfs:label "Columbia University" .
+
+kg:Comstock_Prize_in_Physics a kg:Award ;
+    rdfs:label "Comstock Prize in Physics" .
+
+kg:Cornell_University a kg:Organization ;
+    rdfs:label "Cornell University" .
+
+kg:Duddell_Medal a kg:Award ;
+    rdfs:label "Duddell Medal" .
+
+kg:Elliott_Cresson_Medal a kg:Award ;
+    rdfs:label "Elliott Cresson Medal" .
+
+kg:Enrico_Fermi_Award a kg:Award ;
+    rdfs:label "Enrico Fermi Award" .
+
+kg:Experimental_Physics a kg:Organization ;
+    rdfs:label "Experimental Physics" .
+
+kg:German_Charles_Ferdinand_University a kg:Organization ;
+    rdfs:label "German Charles Ferdinand University" .
+
+kg:Gujranwala a kg:Place ;
+    rdfs:label "Gujranwala" .
+
+kg:Hamburg a kg:Place ;
+    rdfs:label "Hamburg" .
+
+kg:Hanseatic_Cross a kg:Award ;
+    rdfs:label "Hanseatic Cross" .
+
+kg:Harvard a kg:Organization ;
+    rdfs:label "Harvard" .
+
+kg:Hertz a kg:Organization ;
+    rdfs:label "Hertz" .
+
+kg:Holley_Medal a kg:Award ;
+    rdfs:label "Holley Medal" .
+
+kg:Institute_for_Advanced_Study a kg:Organization ;
+    rdfs:label "Institute for Advanced Study" .
+
+kg:Junaid_Hashmi a kg:Person ;
+    rdfs:label "Junaid Hashmi" ;
+    kg:worksAt kg:Riverbend_Institute_of_Physics .
+
+kg:Kestrel_Prize_in_Physics a kg:Award ;
+    rdfs:label "Kestrel Prize in Physics" .
+
+kg:Los_Alamos_Laboratory a kg:Organization ;
+    rdfs:label "Los Alamos Laboratory" .
+
+kg:Luitpold_Gymnasium a kg:Organization ;
+    rdfs:label "Luitpold Gymnasium" .
+
+kg:MIT a kg:Organization ;
+    rdfs:label "MIT" .
+
+kg:Medal a kg:Award ;
+    rdfs:label "Medal" .
+
+kg:National_Association_for_Advancement_of_Colored_People a kg:Organization ;
+    rdfs:label "National Association for Advancement of Colored People" .
+
+kg:National_Research_Council_fellowship a kg:Award ;
+    rdfs:label "National Research Council fellowship" .
+
+kg:New_York_City a kg:Place ;
+    rdfs:label "New York City" .
+
+kg:Niels_Bohr_Institute a kg:Organization ;
+    rdfs:label "Niels Bohr Institute" .
+
+kg:Nobel_Prize a kg:Award ;
+    rdfs:label "Nobel Prize" .
+
+kg:Northgate_College_of_Science a kg:Organization ;
+    rdfs:label "Northgate College of Science" .
+
+kg:Polytekniske_L%C3%A6reanstalt_for_Arthur_von_Hippel a kg:Organization ;
+    rdfs:label "Polytekniske Læreanstalt for Arthur von Hippel" .
+
+kg:Princeton_University a kg:Organization ;
+    rdfs:label "Princeton University" .
+
+kg:Prize a kg:Award ;
+    rdfs:label "Prize" .
+
+kg:Research_Fellowship a kg:Award ;
+    rdfs:label "Research Fellowship" .
+
+kg:Riverbend_Institute_of_Physics a kg:Organization ;
+    rdfs:label "Riverbend Institute of Physics" .
+
+kg:St._Olaf_College a kg:Organization ;
+    rdfs:label "St. Olaf College" .
+
+kg:Telegraph_Battalion a kg:Organization ;
+    rdfs:label "Telegraph Battalion" .
+
+kg:Thornfield_Institute_of_Technology a kg:Organization ;
+    rdfs:label "Thornfield Institute of Technology" .
+
+kg:Ulm a kg:Place ;
+    rdfs:label "Ulm" .
+
+kg:University_School_of_Law a kg:Organization ;
+    rdfs:label "University School of Law" .
+
+kg:University_of_Bern a kg:Organization ;
+    rdfs:label "University of Bern" .
+
+kg:University_of_California a kg:Organization ;
+    rdfs:label "University of California" .
+
+kg:University_of_Cambridge a kg:Organization ;
+    rdfs:label "University of Cambridge" .
+
+kg:University_of_G%C3%B6ttingen a kg:Organization ;
+    rdfs:label "University of Göttingen" .
+
+kg:University_of_Heidelberg a kg:Organization ;
+    rdfs:label "University of Heidelberg" .
+
+kg:University_of_Texas a kg:Organization ;
+    rdfs:label "University of Texas" .
+
+kg:Victoria_University_of_Manchester a kg:Organization ;
+    rdfs:label "Victoria University of Manchester" .
+
+kg:Wilhelm_Gymnasium a kg:Organization ;
+    rdfs:label "Wilhelm Gymnasium" .
+
+kg:William_Procter_Prize a kg:Award ;
+    rdfs:label "William Procter Prize" .
+
+kg:Yale_University a kg:Organization ;
+    rdfs:label "Yale University" .
+
+kg:Zurich a kg:Place ;
+    rdfs:label "Zurich" .
+
+kg:medal a kg:Award ;
+    rdfs:label "medal" .
+
+kg:prize a kg:Award ;
+    rdfs:label "prize" .
+
+kg:Hughes_Medal a kg:Award ;
+    rdfs:label "Hughes Medal" .
+
+kg:Iron_Cross a kg:Award ;
+    rdfs:label "Iron Cross" .
+
+kg:Johns_Hopkins_University a kg:Organization ;
+    rdfs:label "Johns Hopkins University" .
+
+kg:Solvay_Conference a kg:Organization ;
+    rdfs:label "Solvay Conference" .
+
+kg:Swiss_Patent_Office a kg:Organization ;
+    rdfs:label "Swiss Patent Office" .
+
+kg:Nobel_Prize_in_Physics a kg:Award ;
+    rdfs:label "Nobel Prize in Physics" .
+
