@@ -55,6 +55,12 @@ ADVISOR_MODS = {"doctoral", "phd", "ph.d.", "thesis", "doctorate", "dissertation
 THESIS_WORDS = {"phd", "ph.d.", "ph.d", "doctorate", "doctoral", "thesis",
                 "dissertation", "dphil"}
 
+# FIX 2: words that mean a school (not an employer) and words that show a sentence is
+# about studying. Used to stop 'moved/transferred to <school>' becoming worksAt.
+SCHOOL_ONLY_KW = {"gymnasium", "school", "seminary"}
+STUDY_WORDS = {"phd", "ph.d", "doctorate", "doctoral", "thesis", "dissertation",
+               "dphil", "studied", "student", "education", "degree"}
+
 NEG_WORDS = {"never", "not", "n't", "neither", "nor", "hardly", "barely"}
 
 PRON_GENDER = {"he": "m", "him": "m", "his": "m", "himself": "m",
@@ -67,7 +73,7 @@ MALE = {"james", "steven", "albert", "ernest", "john", "robert", "max", "hans",
         "william", "charles", "edward", "paul", "walter", "werner", "erwin",
         "arnold", "enrico", "george", "henry", "thomas", "richard", "frank",
         "hermann", "wolfgang", "isidor", "robert", "arthur", "ludwig"}
-FEMALE = {"Khansa", "mileva", "elsa", "maria", "marie", "lise", "mary", "anna",
+FEMALE = {"hira", "mileva", "elsa", "maria", "marie", "lise", "mary", "anna",
           "emmy", "ida", "irene", "sara", "fatima", "ayesha", "sana", "nadia",
           "margaret", "elizabeth", "rosalind", "maja"}
 
@@ -173,6 +179,8 @@ class Registry:
         s = clean_name(surface)
         if not s:
             return None
+        if s in getattr(self, "alias_of", {}):
+            return self.alias_of[s]
         if s in self.full:
             return s
         parts = s.split()
@@ -186,6 +194,20 @@ class Registry:
                     return main
                 return sorted(cands)[0]
         return s
+
+    def finalize(self):
+        """FIX 3 (alias split): a longer full name with the same first and last
+        word as a shorter one ('Ernest Orlando Lawrence' / 'Ernest Lawrence') is
+        the same person, so map the longer name to the shorter one."""
+        self.alias_of = {}
+        for long_name in self.full:
+            lw = long_name.split()
+            for short_name in self.full:
+                sw = short_name.split()
+                if len(sw) < len(lw) and sw[0] == lw[0] and sw[-1] == lw[-1]:
+                    best = self.alias_of.get(long_name)
+                    if best is None or len(sw) > len(best.split()):
+                        self.alias_of[long_name] = short_name
 
     def is_surname(self, word):
         return word.lower() in self.by_surname
@@ -378,8 +400,9 @@ class Extractor:
                 if o2.pos_ != "PROPN" or o2.ent_type_ in ("DATE", "CARDINAL"):
                     continue
                 text = join_tokens(span_tokens(o2, allow_preps=("of", "for")))
-                if tok.lemma_ == "enter" or how == "in":
-                    if not has_edu_kw(text):      # 'in Berlin' is not a school
+                if tok.lemma_ == "enter" or how in ("in", "dobj"):
+                    # FIX 1: 'in Berlin', 'attended the Solvay Conference' are not schools
+                    if not has_edu_kw(text):
                         continue
                 if o2.ent_type_ == "PERSON" and not looks_org(text, o2):
                     continue
@@ -467,6 +490,13 @@ class Extractor:
                 text = join_tokens(span_tokens(o2, allow_preps=("of", "for")))
                 if not looks_org(text, o2):
                     continue                  # 'moved to Berlin' is not an employer
+                if lem in ("move", "relocate", "transfer"):
+                    # FIX 2: 'moved to Princeton, where he earned his PhD' and
+                    # 'was transferred to the Luitpold Gymnasium' are about study
+                    sent_words = {w.lower_.strip(".") for w in sent}
+                    name_words = {w.strip(",.").lower() for w in text.split()}
+                    if sent_words & STUDY_WORDS or name_words & SCHOOL_ONLY_KW:
+                        continue
                 if negated(tok):
                     self.suppress(subj, "worksAt", text, ctx.doc_name, sent, "negation")
                 else:
@@ -488,6 +518,10 @@ class Extractor:
         for p in list(tok.subtree) + list(verb.children):
             if p.dep_ == "prep" and p.lower_ in ("at", "for"):
                 found += [o for o in p.children if o.dep_ == "pobj"]
+        # FIX 4: 'the Institute for Advanced Study' contains a nested 'for ...' phrase;
+        # keep only the outer organisation, not the shortened inner copy.
+        found = [o for o in found
+                 if not any(o is not f and o in f.subtree for f in found)]
         for o in found:
             if o.pos_ != "PROPN" or o.ent_type_ in ("DATE", "CARDINAL"):
                 continue
@@ -610,6 +644,8 @@ def main():
             first = next((t for t in doc if is_person_head(t, registry)), None)
             if first is not None:
                 registry.main[f.name] = person_surface(first)
+
+    registry.finalize()
 
     # Pass 2: sentence by sentence extraction.
     ex = Extractor(registry)

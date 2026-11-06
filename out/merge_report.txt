@@ -1,9 +1,10 @@
-Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
+Alias merges: 983 mentions merged into a full name (152 distinct alias forms)
   '85f2116W.' -> '85f2116W'  x1
   'Akers' -> 'Wallace Akers'  x1
   'Albert' -> 'Hans Albert'  x5
   'Anderson' -> 'Marian Anderson'  x1
   'Archives' -> 'Albert Einstein Archives'  x10
+  'Arthur R. von Hippel' -> 'Arthur von Hippel'  x1
   'Bauer' -> 'Peter Bauer'  x1
   'Bell' -> 'John Stewart Bell'  x3
   'Ben' -> 'Minister David Ben'  x1
@@ -33,6 +34,8 @@ Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
   'Einstein' -> 'Albert Einstein'  x278
   'Eisenhower' -> 'President Dwight D. Eisenhower'  x1
   'Ellis' -> 'Charles Drummond Ellis'  x1
+  'Ernest Lawrence Ernest Lawrence' -> 'Ernest Orlando Lawrence'  x1
+  'Ernest Orlando Lawrence' -> 'Ernest Lawrence'  x4
   'Feather' -> 'Norman Feather'  x2
   'Feinberg' -> 'Gerald Feinberg'  x1
   'Franck' -> 'James Franck'  x43
@@ -63,6 +66,8 @@ Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
   'J.' -> 'J'  x1
   'J. L.' -> 'J. L'  x1
   'Jews' -> 'Ashkenazi Jews'  x7
+  'John Archibald Wheeler' -> 'John Wheeler'  x1
+  'John H. Lawrence' -> 'John Lawrence'  x1
   'Joliot' -> 'Pierre Joliot'  x1
   'Kapitza' -> 'Pyotr Kapitza'  x1
   'Kuhn' -> 'Heinrich Kuhn'  x1
@@ -97,10 +102,12 @@ Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
   'Planck' -> 'Max Planck'  x3
   'Podolsky' -> 'Boris Podolsky'  x1
   'Pohl' -> 'Robert Pohl'  x1
+  'President Franklin D. Roosevelt' -> 'President Roosevelt'  x3
   'Pringsheim' -> 'Peter Pringsheim'  x2
   'Professor Einstein' -> 'Albert Einstein'  x1
   'Rev. Lett' -> 'Lett'  x1
   'Richard G.' -> 'Richard G'  x1
+  'Robert A. Millikan' -> 'Robert Millikan'  x2
   'Robert W.' -> 'Robert W'  x2
   'Roosevelt' -> 'Franklin Roosevelt'  x2
   'Rosen' -> 'Nathan Rosen'  x4
@@ -138,6 +145,7 @@ Alias merges: 969 mentions merged into a full name (144 distinct alias forms)
   'Westphal' -> 'Wilhelm Westphal'  x1
   'Wheeler' -> 'John Archibald Wheeler'  x1
   'Wigner' -> 'Eugene Wigner'  x1
+  'William L. Laurence' -> 'William Laurence'  x1
   'Winteler' -> 'Jost Winteler'  x3
   'Wolfgang K.H.' -> 'Wolfgang K.H'  x1
   'Wood' -> 'Robert W. Wood'  x1

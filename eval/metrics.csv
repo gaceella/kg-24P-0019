@@ -1,0 +1,7 @@
+predicate,TP,FP,FN,precision,recall
+bornIn,3,1,2,0.75,0.6
+educatedAt,3,6,18,0.333,0.143
+receivedAward,10,7,64,0.588,0.135
+worksAt,4,17,24,0.19,0.143
+doctoralAdvisor,0,0,8,0.0,0.0
+ALL,20,31,116,0.392,0.147

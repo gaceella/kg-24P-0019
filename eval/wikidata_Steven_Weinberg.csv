@@ -1,0 +1,30 @@
+person,predicate,property,value,value_id
+Steven Weinberg,bornIn,P19,New York City,Q60
+Steven Weinberg,doctoralAdvisor,P184,Sam Treiman,Q567758
+Steven Weinberg,educatedAt,P69,Bronx High School of Science,Q751612
+Steven Weinberg,educatedAt,P69,Columbia University,Q49088
+Steven Weinberg,educatedAt,P69,Cornell University,Q49115
+Steven Weinberg,educatedAt,P69,Princeton University,Q21578
+Steven Weinberg,receivedAward,P166,Andrew Gemant Award,Q2887042
+Steven Weinberg,receivedAward,P166,Dannie Heineman Prize for Mathematical Physics,Q1164475
+Steven Weinberg,receivedAward,P166,Elliott Cresson Medal,Q1332315
+Steven Weinberg,receivedAward,P166,Emperor Has No Clothes Award,Q74267946
+Steven Weinberg,receivedAward,P166,Fellow of the Committee for Skeptical Inquiry,Q61745062
+Steven Weinberg,receivedAward,P166,Foreign Member of the Royal Society,Q14906020
+Steven Weinberg,receivedAward,P166,Humanist of the Year,Q19869310
+Steven Weinberg,receivedAward,P166,J. Robert Oppenheimer Memorial Prize,Q23055126
+Steven Weinberg,receivedAward,P166,James Joyce Awards,Q3806623
+Steven Weinberg,receivedAward,P166,James Madison Medal,Q21662156
+Steven Weinberg,receivedAward,P166,Josiah Willard Gibbs Lectureship,Q1522873
+Steven Weinberg,receivedAward,P166,Marcel Grossmann Award,Q2776640
+Steven Weinberg,receivedAward,P166,National Medal of Science,Q737051
+Steven Weinberg,receivedAward,P166,Nobel Prize in Physics,Q38104
+Steven Weinberg,receivedAward,P166,Oskar Klein Medal,Q1778662
+Steven Weinberg,receivedAward,P166,Richtmyer Memorial Lecture Award,Q7331107
+Steven Weinberg,receivedAward,P166,honorary doctor of the University of Padua,Q57446605
+Steven Weinberg,receivedAward,P166,honorary doctorate of the University of Salamanca,Q50614979
+Steven Weinberg,worksAt,P108,Harvard University,Q13371
+Steven Weinberg,worksAt,P108,Massachusetts Institute of Technology,Q49108
+Steven Weinberg,worksAt,P108,"University of California, Berkeley",Q168756
+Steven Weinberg,worksAt,P108,University of Copenhagen Niels Bohr Institute,Q263761
+Steven Weinberg,worksAt,P108,University of Texas at Austin,Q49213

@@ -1,0 +1,24 @@
+person,predicate,property,value,value_id
+Ernest Lawrence,bornIn,P19,Canton,Q1013549
+Ernest Lawrence,doctoralAdvisor,P184,William Francis Gray Swann,Q8009315
+Ernest Lawrence,educatedAt,P69,Augustana Academy,Q4821021
+Ernest Lawrence,educatedAt,P69,St. Olaf College,Q1515763
+Ernest Lawrence,educatedAt,P69,University of Chicago,Q131252
+Ernest Lawrence,educatedAt,P69,University of Minnesota,Q238101
+Ernest Lawrence,educatedAt,P69,University of South Dakota,Q1305521
+Ernest Lawrence,educatedAt,P69,Yale University,Q49112
+Ernest Lawrence,receivedAward,P166,Comstock Prize in Physics,Q1122821
+Ernest Lawrence,receivedAward,P166,Dennis Gabor Medal and Prize,Q5311657
+Ernest Lawrence,receivedAward,P166,Elliott Cresson Medal,Q1332315
+Ernest Lawrence,receivedAward,P166,Enrico Fermi Award,Q931545
+Ernest Lawrence,receivedAward,P166,Faraday Medal,Q1396110
+Ernest Lawrence,receivedAward,P166,Fellow of the American Academy of Arts and Sciences,Q52382875
+Ernest Lawrence,receivedAward,P166,Fellow of the American Physical Society,Q41955909
+Ernest Lawrence,receivedAward,P166,Holley Medal,Q21531768
+Ernest Lawrence,receivedAward,P166,Hughes Medal,Q844872
+Ernest Lawrence,receivedAward,P166,National Inventors Hall of Fame,Q1366018
+Ernest Lawrence,receivedAward,P166,Nobel Prize in Physics,Q38104
+Ernest Lawrence,receivedAward,P166,Silliman Memorial Lectures,Q7515378
+Ernest Lawrence,receivedAward,P166,Sylvanus Thayer Award,Q4311715
+Ernest Lawrence,receivedAward,P166,William Procter Prize for Scientific Achievement,Q8017107
+Ernest Lawrence,worksAt,P108,"University of California, Berkeley",Q168756

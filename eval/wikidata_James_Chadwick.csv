@@ -1,0 +1,23 @@
+person,predicate,property,value,value_id
+James Chadwick,bornIn,P19,Bollington,Q2247131
+James Chadwick,doctoralAdvisor,P184,Ernest Rutherford,Q9123
+James Chadwick,educatedAt,P69,Gonville and Caius College,Q863940
+James Chadwick,educatedAt,P69,University of Cambridge,Q35794
+James Chadwick,educatedAt,P69,University of Manchester,Q230899
+James Chadwick,educatedAt,P69,Victoria University of Manchester,Q867530
+James Chadwick,receivedAward,P166,Companion of Honour,Q16947520
+James Chadwick,receivedAward,P166,Copley Medal,Q28003
+James Chadwick,receivedAward,P166,Faraday Medal,Q1396110
+James Chadwick,receivedAward,P166,Fellow of the Royal Society,Q15631401
+James Chadwick,receivedAward,P166,Franklin Medal,Q3141777
+James Chadwick,receivedAward,P166,Guthrie Medal and Prize,Q61576125
+James Chadwick,receivedAward,P166,Hughes Medal,Q844872
+James Chadwick,receivedAward,P166,Knight Bachelor,Q833163
+James Chadwick,receivedAward,P166,Medal of Freedom,Q1330790
+James Chadwick,receivedAward,P166,Melchett Medal,Q19597849
+James Chadwick,receivedAward,P166,Nobel Prize in Physics,Q38104
+James Chadwick,receivedAward,P166,Pour le Mérite for Sciences and Arts order,Q15056034
+James Chadwick,receivedAward,P166,Royal Society Bakerian Medal,Q1107771
+James Chadwick,worksAt,P108,University of Liverpool,Q499510
+James Chadwick,worksAt,P108,University of Manchester,Q230899
+James Chadwick,worksAt,P108,Victoria University of Manchester,Q867530

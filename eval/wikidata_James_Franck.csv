@@ -1,0 +1,20 @@
+person,predicate,property,value,value_id
+James Franck,bornIn,P19,Hamburg,Q1055
+James Franck,doctoralAdvisor,P184,Emil Warburg,Q65466
+James Franck,doctoralAdvisor,P184,Paul Drude,Q61755
+James Franck,educatedAt,P69,Heidelberg University,Q151510
+James Franck,educatedAt,P69,Humboldt-Universität zu Berlin,Q152087
+James Franck,educatedAt,P69,Wilhelm-Gymnasium,Q1591849
+James Franck,receivedAward,P166,Dannie Heineman Prize,Q1164466
+James Franck,receivedAward,P166,Foreign Member of the Royal Society,Q14906020
+James Franck,receivedAward,P166,Hanseatic Cross (Hamburg),Q130463315
+James Franck,receivedAward,P166,"Iron Cross (1914), 1st class",Q140668177
+James Franck,receivedAward,P166,"Iron Cross (1914), 2nd class",Q140668176
+James Franck,receivedAward,P166,Max Planck Medal,Q317038
+James Franck,receivedAward,P166,Nobel Prize in Physics,Q38104
+James Franck,receivedAward,P166,Rumford Prize,Q2096481
+James Franck,receivedAward,P166,"honorary member of the Physics Association (Frankfurt am Main, Germany)",Q134613391
+James Franck,worksAt,P108,Humboldt-Universität zu Berlin,Q152087
+James Franck,worksAt,P108,Johns Hopkins University,Q193727
+James Franck,worksAt,P108,University of Chicago,Q131252
+James Franck,worksAt,P108,University of Göttingen,Q152838

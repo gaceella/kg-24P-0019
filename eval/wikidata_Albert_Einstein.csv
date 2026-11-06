@@ -1,0 +1,44 @@
+person,predicate,property,value,value_id
+Albert Einstein,bornIn,P19,Ulm,Q3012
+Albert Einstein,doctoralAdvisor,P184,Alfred Kleiner,Q4175282
+Albert Einstein,doctoralAdvisor,P184,Heinrich Burkhardt,Q97154
+Albert Einstein,doctoralAdvisor,P184,Heinrich Friedrich Weber,Q116635
+Albert Einstein,educatedAt,P69,ETH Zurich,Q11942
+Albert Einstein,educatedAt,P69,Luitpold-Gymnasium,Q1876751
+Albert Einstein,educatedAt,P69,Old Kantonsschule (Albert Einstein House),Q435651
+Albert Einstein,educatedAt,P69,University of Zurich,Q206702
+Albert Einstein,receivedAward,P166,Barnard Medal for Meritorious Service to Science,Q808424
+Albert Einstein,receivedAward,P166,Copley Medal,Q28003
+Albert Einstein,receivedAward,P166,Foreign Member of the Royal Society,Q14906020
+Albert Einstein,receivedAward,P166,Franklin Medal,Q3141777
+Albert Einstein,receivedAward,P166,Gold Medal of the Royal Astronomical Society,Q753072
+Albert Einstein,receivedAward,P166,Great Immigrants Award,Q121359767
+Albert Einstein,receivedAward,P166,Honorary Fellow of the Royal Society Te Apārangi,Q125121451
+Albert Einstein,receivedAward,P166,Honorary doctorate from the University of Geneva,Q25287226
+Albert Einstein,receivedAward,P166,Josiah Willard Gibbs Lectureship,Q1522873
+Albert Einstein,receivedAward,P166,Matteucci Medal,Q1419938
+Albert Einstein,receivedAward,P166,Max Planck Medal,Q317038
+Albert Einstein,receivedAward,P166,New Jersey Hall of Fame,Q14705795
+Albert Einstein,receivedAward,P166,Nobel Prize in Physics,Q38104
+Albert Einstein,receivedAward,P166,Pour le Mérite for Sciences and Arts order,Q15056034
+Albert Einstein,receivedAward,P166,Prix Jules Janssen,Q1711648
+Albert Einstein,receivedAward,P166,doctor honoris causa from the University of Paris,Q126418747
+Albert Einstein,receivedAward,P166,honorary doctor of the Hebrew University of Jerusalem,Q28861731
+Albert Einstein,receivedAward,P166,honorary doctor of the University of Madrid Complutense,Q50621171
+Albert Einstein,receivedAward,P166,honorary doctorate from Princeton University,Q42309226
+Albert Einstein,receivedAward,P166,"honorary member of the Physics Association (Frankfurt am Main, Germany)",Q134613391
+Albert Einstein,worksAt,P108,Bern,Q70
+Albert Einstein,worksAt,P108,Charles University,Q31519
+Albert Einstein,worksAt,P108,Deutsche Physikalische Gesellschaft,Q819187
+Albert Einstein,worksAt,P108,ETH Zurich,Q11942
+Albert Einstein,worksAt,P108,German University in Prague,Q1729754
+Albert Einstein,worksAt,P108,Humboldt-Universität zu Berlin,Q152087
+Albert Einstein,worksAt,P108,Institute for Advanced Study,Q635642
+Albert Einstein,worksAt,P108,Kaiser Wilhelm Society,Q708038
+Albert Einstein,worksAt,P108,Leiden University,Q156598
+Albert Einstein,worksAt,P108,Princeton University,Q21578
+Albert Einstein,worksAt,P108,Royal Prussian Academy of Sciences,Q329464
+Albert Einstein,worksAt,P108,Swiss Federal Institute of Intellectual Property,Q685539
+Albert Einstein,worksAt,P108,University of Bern,Q659080
+Albert Einstein,worksAt,P108,"University of California, Berkeley",Q168756
+Albert Einstein,worksAt,P108,University of Zurich,Q206702
