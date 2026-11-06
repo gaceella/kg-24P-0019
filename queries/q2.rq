@@ -1,0 +1,11 @@
+PREFIX kg: <http://example.org/kg/24p-0019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# Q2: how many triples there are for each of my five predicates
+SELECT ?predicate (COUNT(*) AS ?n)
+WHERE {
+  ?s ?predicate ?o .
+  FILTER (?predicate IN (kg:bornIn, kg:educatedAt, kg:receivedAward, kg:worksAt, kg:doctoralAdvisor))
+}
+GROUP BY ?predicate
+ORDER BY DESC(?n)

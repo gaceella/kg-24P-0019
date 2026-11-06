@@ -1,0 +1,11 @@
+PREFIX kg: <http://example.org/kg/24p-0019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# Q4: people with two or more DIFFERENT birthplaces
+SELECT ?person (COUNT(DISTINCT ?b) AS ?birthplaces)
+WHERE {
+  ?p kg:bornIn ?b ;
+     rdfs:label ?person .
+}
+GROUP BY ?person
+HAVING (COUNT(DISTINCT ?b) >= 2)

@@ -1,0 +1,14 @@
+PREFIX kg: <http://example.org/kg/24p-0019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# Q1: every person with their birthplace; people with no birthplace still appear (OPTIONAL)
+SELECT ?person ?birthplace
+WHERE {
+  ?p a kg:Person ;
+     rdfs:label ?person .
+  OPTIONAL {
+    ?p kg:bornIn ?b .
+    ?b rdfs:label ?birthplace .
+  }
+}
+ORDER BY ?person

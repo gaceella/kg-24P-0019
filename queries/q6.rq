@@ -1,0 +1,11 @@
+PREFIX kg: <http://example.org/kg/24p-0019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# Q6: all doctoral ancestors, however many steps back (property path with +)
+SELECT ?person ?ancestor
+WHERE {
+  ?p kg:doctoralAdvisor+ ?a .
+  ?p rdfs:label ?person .
+  ?a rdfs:label ?ancestor .
+}
+ORDER BY ?person ?ancestor

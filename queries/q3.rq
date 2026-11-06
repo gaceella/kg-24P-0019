@@ -1,0 +1,15 @@
+PREFIX kg: <http://example.org/kg/24p-0019/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# Q3: pairs of different people who share a birthplace
+# (FILTER with < lists each pair only once and removes pairing a person with themselves)
+SELECT ?person1 ?person2 ?place
+WHERE {
+  ?a kg:bornIn ?b .
+  ?c kg:bornIn ?b .
+  FILTER (STR(?a) < STR(?c))
+  ?a rdfs:label ?person1 .
+  ?c rdfs:label ?person2 .
+  ?b rdfs:label ?place .
+}
+ORDER BY ?place ?person1
