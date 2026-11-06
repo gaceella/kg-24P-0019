@@ -1,0 +1,80 @@
+Validation Report
+Conforms: False
+Results (11):
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Advanced_Study
+	Value Node: Literal("Advanced Study")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Berlin
+	Value Node: Literal("Berlin")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Experimental_Physics
+	Value Node: Literal("Experimental Physics")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Harvard
+	Value Node: Literal("Harvard")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Hertz
+	Value Node: Literal("Hertz")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:MIT
+	Value Node: Literal("MIT")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:National_Association_for_Advancement_of_Colored_People
+	Value Node: Literal("National Association for Advancement of Colored People")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Polytekniske_L%C3%A6reanstalt_for_Arthur_von_Hippel
+	Value Node: Literal("Polytekniske Læreanstalt for Arthur von Hippel")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Solvay_Conference
+	Value Node: Literal("Solvay Conference")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Swiss_Patent_Office
+	Value Node: Literal("Swiss Patent Office")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
+Validation Result in PatternConstraintComponent (http://www.w3.org/ns/shacl#PatternConstraintComponent):
+	Severity: sh:Warning
+	Source Shape: [ sh:flags Literal("i") ; sh:message Literal("Organization name does not contain a typical institution word.") ; sh:path rdfs:label ; sh:pattern Literal("(university|college|institute|institution|school|academy|laborator|polytechnic|gymnasium|observatory|society|foundation|hochschule|universit)") ; sh:severity sh:Warning ]
+	Focus Node: kg:Telegraph_Battalion
+	Value Node: Literal("Telegraph Battalion")
+	Result Path: rdfs:label
+	Message: Organization name does not contain a typical institution word.
