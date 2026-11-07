@@ -61,7 +61,7 @@ kg:AwardShape a sh:NodeShape ;
 # --------------------------------------------------------- Organization
 # Heuristic: an organisation's name should contain a typical institution word.
 # This is deliberately strict: names like 'Harvard' or 'MIT' will be flagged,
-# which is a good example of a shape that is too strict (explain it in the note).
+# which is a good example of a shape that is too strict.
 kg:OrganizationShape a sh:NodeShape ;
     sh:targetClass kg:Organization ;
     sh:not [ a sh:NodeShape ; sh:class kg:Place ] ;
