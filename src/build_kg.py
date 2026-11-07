@@ -1,27 +1,5 @@
 #!/usr/bin/env python3
-"""
-build_kg.py - turn out/triples.csv into an RDF graph (out/kg.ttl) with rdflib.
 
-Run from the repo root:
-    python src/build_kg.py
-    python src/build_kg.py --triples out/triples.csv --out out/kg.ttl
-
-Modelling choices (explain these in your README):
-  * Every entity gets a URI in your namespace: kg:Albert_Einstein.
-    The original name is kept as rdfs:label.
-  * Predicates become properties: kg:bornIn, kg:educatedAt, kg:receivedAward,
-    kg:worksAt, kg:doctoralAdvisor.
-  * Classes are guessed from the ROLE an entity plays in a triple:
-        subject of any triple, or object of doctoralAdvisor -> kg:Person
-        object of bornIn                                    -> kg:Place
-        object of educatedAt / worksAt                      -> kg:Organization
-        object of receivedAward                             -> kg:Award
-    If one name plays two roles (e.g. 'Berlin' as a birthplace and as a
-    school) it gets two classes - the ontology's disjointWith statements
-    and your SHACL shapes will then flag it. That is a useful finding.
-  * Provenance (source_doc, sentence) stays in triples.csv; the graph itself
-    holds only the facts.
-"""
 import argparse
 import csv
 import pathlib
@@ -35,7 +13,7 @@ NS = Namespace("http://example.org/kg/24p-0019/")
 
 PREDICATES = {"bornIn", "educatedAt", "receivedAward", "worksAt", "doctoralAdvisor"}
 
-# predicate -> class of the OBJECT
+# predicate 
 OBJECT_CLASS = {
     "bornIn": NS.Place,
     "educatedAt": NS.Organization,

@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
-"""
-evaluate.py - compare out/triples.csv with the Wikidata exports (eval/wikidata_*.csv).
 
-Run from the repo root:
-    python src/evaluate.py                 # writes eval/metrics.csv and the FP/FN lists
-    python src/evaluate.py --tag after     # same, but names the files *_after.csv
-
-Rules used (state these in your README / error analysis):
-  * Only triples whose subject is exactly one of the five Wikipedia people are scored.
-    (Triples for other people, or for an alias such as 'Ernest Orlando Lawrence', are
-    therefore not counted - an alias split shows up as missing triples = false negatives.)
-  * Two values match when their lower-cased text is equal after removing a leading
-    'the ' and extra spaces. Exact matching is strict on purpose.
-  * TP = extracted and in Wikidata; FP = extracted, not in Wikidata;
-    FN = in Wikidata, not extracted.
-  * Duplicate triples (same subject, predicate, object) count once.
-"""
 import argparse
 import csv
 import glob

@@ -1,7 +1,7 @@
 # Query answers
 
 ## Q3 – people who share a birthplace
-Q3 returns no rows. Each birthplace in my graph belongs to only one person (see Q1),
+Q3 returns no rows. Each birthplace in my graph belongs to only one person (from  Q1),
 so there are no pairs. This only means no pair was extracted, not that no two of these
 people were really born in the same place.
 

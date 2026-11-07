@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""
-validate_shacl.py - validate out/kg.ttl against shapes.ttl with pySHACL and
-save the human-readable report to shacl_report.txt.
 
-Run from the repo root:
-    python src/validate_shacl.py
-"""
 import argparse
 import pathlib
 

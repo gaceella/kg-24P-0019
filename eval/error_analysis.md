@@ -85,8 +85,11 @@ which raised `bornIn` recall from 0.60 to 0.80. (The four fixes together account
 change; I did not score each fix on its own.)
 
 ## What the scores cannot show
-- **doctoralAdvisor (0 found, 8 in Wikidata):** advisors appear in the Wikipedia infobox, which
-  the plain-text download leaves out, so the sentences were not in my data.
+- **doctoralAdvisor (0 found, 8 in Wikidata):** most advisors appear only in the Wikipedia
+  infobox, which the plain-text download leaves out. One advisor sentence was in my data
+  (Weinberg completed his dissertation "under the supervision of Sam Treiman"), but my rule
+  for "under" did not capture it, because the name sits inside "the supervision of ...", and
+  my rule expects a person directly after "under".
 - **Wikidata is not perfect:** some of my false positives are correct facts that Wikidata
   lacks or words differently (E6), for example the Research Council fellowship above.
 - Wikidata had values for all five people, so no person had to be left out of the scores.

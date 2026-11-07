@@ -1,22 +1,5 @@
 #!/usr/bin/env python3
-"""
-extract.py - rule-based triple extractor for AI3001 Assignment 1.
 
-Reads plain-text documents from data/raw/, uses spaCy (sentence splitting,
-entity labels, dependency parse) and hand-written rules to extract five
-predicates: bornIn, educatedAt, receivedAward, worksAt, doctoralAdvisor.
-
-Output: a CSV with columns subject, predicate, object, source_doc, sentence
-        plus a merge report (alias merges) next to it.
-
-Usage:
-    python src/extract.py                                  # all files in data/raw
-    python src/extract.py --only private_document.txt \
-           --out /tmp/test_triples.csv -v                  # one file, verbose
-
-No relation-extraction model and no LLM is used: every triple comes from
-the rules in this file.
-"""
 import argparse
 import csv
 import pathlib

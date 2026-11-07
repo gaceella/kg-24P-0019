@@ -153,5 +153,4 @@ Details are in `eval/metrics.csv`, `eval/metrics_after.csv` and `eval/error_anal
 ## Sources
 
 Course slides and the official documentation of spaCy, rdflib, pySHACL, Apache Jena Fuseki, Wikidata
-and SPARQL. I developed this project with assistance from an AI assistant (Claude), as permitted by my
-instructor.
+and SPARQL. 
